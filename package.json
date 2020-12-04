@@ -1,0 +1,22 @@
+{
+  "name": "logs-processor",
+  "version": "1.0.0",
+  "description": "analysing some logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node-script src/index.ts"
+  },
+  "author": "David Dasenbrook",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.16",
+    "@types/node": "^14.14.10",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4"
+  },
+  "dependencies": {
+    "typescript": "^4.0.5",
+    "ts-node": "^9.1.0"
+  }
+}
